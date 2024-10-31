@@ -54,7 +54,7 @@ export default function EditCar(props) {
   return (
     <>
       <Button variant="contained" onClick={handleClickOpen} color='success'
-      startIcon={<EditIcon/>}>EDIT 
+    >Edit 
       </Button>
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>Edit car </DialogTitle>
